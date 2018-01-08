@@ -1,0 +1,19 @@
+mutation	pos	depth	frequency	C	germline/somatic	zygosity
+MCL1:NM_001197320:c.436G>T_p.V146L	chr1:150550761	824	0.58	5	germline	het
+ALK:NM_004304:c.550C>T_p.R184*	chr2:30142976	851	0.60	4	somatic	homozygous
+PIK3CA:NM_006218:c.1357G>C_p.E453Q	chr3:178928079	1280	0.15	6	subclonal somatic	het
+PIK3CA:NM_006218:c.1624G>A_p.E542K	chr3:178936082	1002	0.17	6	subclonal somatic	het
+BCL6:NM_001706:c.910G>C_p.E304Q	chr3:187447283	1362	0.12	6	subclonal somatic	het
+PDGFRB:NM_002609:c.1839G>C_p.Q613H	chr5:149504363	326	0.13	3	ambiguous_neither_G_nor_S	homozygous
+EPHA7:NM_004440:c.2516A>G_p.D839G	chr6:93964381	492	0.18	3	germline	not in tumor
+GPR124:NM_032777:c.1228G>A_p.E410K	chr8:37690658	466	0.26	2	germline	not in tumor
+PAX5:NM_016734:c.841C>G_p.L281V	chr9:36923421	681	0.38	3	ambiguous_neither_G_nor_S	homozygous
+PTCH1:NM_000264:c.1298C>A_p.S433Y	chr9:98240386	1117	0.20	4	germline	not in tumor
+RET:NM_020975:c.2370G>T_p.L790F	chr10:43613906	498	0.39	3	ambiguous_both_G_and_S	het
+TNKS2:NM_025235:c.1979G>C_p.R660T	chr10:93602068	789	0.18	3	somatic	het
+LRP6:NM_002336:c.4144G>T_p.V1382F	chr12:12279793	814	0.22	3	germline	not in tumor
+BRCA2:NM_000059:c.8318C>T_p.S2773F	chr13:32937657	625	0.19	3	germline	not in tumor
+TP53:NM_000546:c.743G>A_p.R248Q	chr17:7577538	659	0.49	2	somatic	homozygous
+NF1:NM_001042492:c.3481C>T_p.L1161F	chr17:29559884	743	0.22	3	somatic	het
+DOT1L:NM_032482:c.1768C>T_p.R590C	chr19:2213956	394	0.29	4	germline	het
+CCNE1:NM_001238:c.559C>T_p.L187F	chr19:30311705	1237	0.16	4	somatic	het

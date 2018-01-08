@@ -1,0 +1,13 @@
+mutation	pos	depth	frequency	C	germline/somatic	zygosity
+DNMT3A:NM_022552:c.1226G>A_p.W409*	chr2:25469542	301	0.07	4	subclonal somatic	het
+PBRM1:NM_018313:c.4535C>T_p.A1512V	chr3:52584478	319	0.29	2	germline	not in tumor
+FLT4:NM_002020:c.194A>T_p.Q65L	chr5:180057761	312	0.18	3	somatic	het
+BRAF:NM_004333:c.1406G>C_p.G469A	chr7:140481402	327	0.45	3	somatic	homozygous
+FANCG:NM_004629:c.181C>T_p.P61S	chr9:35078728	256	0.46	2	germline	het
+PTCH1:NM_000264:c.3538C>G_p.P1180A	chr9:98212134	305	0.51	2	germline	het
+ATM:NM_000051:c.7996A>G_p.T2666A	chr11:108204681	255	0.36	2	ambiguous_both_G_and_S	homozygous
+CREBBP:NM_004380:c.5933A>G_p.N1978S	chr16:3779115	423	0.31	4	germline	het
+FANCA:NM_000135:c.2T>C_p.M1T	chr16:89883022	132	0.52	3	germline	het
+DOT1L:NM_032482:c.3155G>T_p.G1052V	chr19:2222323	394	0.49	3	somatic	homozygous
+GNAS:NM_001077490:c.1268C>A_p.P423H	chr20:57429775	337	0.54	3	germline	het
+STK11:NM_000455:c.169_169delG_p.E57fs*7	chr19:1207080	491	0.41	2	somatic	homozygous

@@ -1,0 +1,14 @@
+#sample	mutation	frequency	depth	pos	status	strand	effect
+sample2	NRAS:NM_002524:c.250A>G_p.I84V	0.22	990	chr1:115256461	unknown	-	missense
+sample2	LRP1B:NM_018557:c.6178C>G_p.R2060G	0.06	830	chr2:141459834	unknown	-	missense
+sample2	LRP1B:NM_018557:c.1767G>C_p.E589D	0.28	388	chr2:141806577	unknown	-	missense
+sample2	ERBB4:NM_005235:c.3689C>A_p.P1230Q	0.33	1146	chr2:212248578	unknown	-	missense
+sample2	KIT:NM_000222:c.1621A>C_p.M541L	0.49	1030	chr4:55593464	ambiguous	+	missense
+sample2	FBXW7:NM_033632:c.881C>A_p.S294*	0.55	590	chr4:153253852	likely	-	nonsense
+sample2	PKHD1:NM_138694:c.12155C>T_p.A4052V	0.21	636	chr6:51483949	unknown	-	missense
+sample2	PKHD1:NM_138694:c.61C>A_p.L21M	0.43	867	chr6:51948045	unknown	-	missense
+sample2	STAT3:NM_139276:c.283C>G_p.L95V	0.51	961	chr17:40497666	unknown	-	missense
+sample2	BRCA1:NM_007294:c.4636G>A_p.D1546N	0.65	1209	chr17:41226387	unknown	-	missense
+sample2	CDH2:NM_001792:c.581G>T_p.R194L	0.17	440	chr18:25589802	unknown	-	missense
+sample2	FLT3:NM_004119:c.2198_2198delC_p.P733fs*48:frameshift	0.56	724	chr13:28601233	likely	-	frameshift
+sample2	TP53:NM_000546:c.939_943delCTCCT_p.S315fs*20:frameshift	0.59	1003	chr17:7576902	likely	-	frameshift
