@@ -39,3 +39,5 @@ The scripts were last tested successfully in python 2.7.14 with the following mo
   Please contact **Yuting He** <yhe@foundationmedicine.com> or **James Sun** <jsun@foundationmedicine.com> if you have any questions.
   
   Please cite the paper *Sun, J. X., He, Y., Sanford, E., Montesion, M., Frampton, G. M., Vignot, S., ... & Lipson, D. (2018). A computational approach to distinguish somatic vs. germline origin of genomic alterations from deep sequencing of cancer specimens without a matched normal. PLoS computational biology, 14(2), e1005965.* if you use SGZ in your publication.
+  
+  Last updated on March 16th, 2018
