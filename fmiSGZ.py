@@ -228,7 +228,7 @@ def core_SGZ(data_CNA, short_variants):
          try:
             # sim 1000 times and get 95% CI of the allele burden
             # EAF_sim   = binom.rvs(sv.depth,EAF, size=1000)/sv.depth
-            EAF_sim   = binom.rvs(sv.depth,EAF, size=1000)/sv.depth
+            EAF_sim   = binom.rvs(int(sv.depth),EAF, size=1000)/sv.depth
             ab_sim    = sv.frequency/EAF_sim          # take ratio
             burden_CI = percentile(ab_sim, [2.5,97.5])
          except:
