@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 
-import os, sys, string, glob, re
+import os, sys, glob
 from numpy import *
 from scipy.stats import binom_test
 from scipy.stats import binom
 import csv
 import argparse
-import pdb
+# import pdb
 
 __author__  = 'Yuting He'
 __contact__ = 'yhe@foundationmedicine.com'

@@ -1,12 +1,11 @@
 #!/usr/bin/env python
 
-import os, sys, string, glob, re, csv, pdb
+import os, sys, glob, csv
 from numpy import *
 from scipy.stats import binom_test
 from scipy.stats import binom
 import argparse
 import logging
-from numpy import random 
 
 __author__ = 'James Sun'
 __contact__ = 'jsun@foundationmedicine.com'
