@@ -32,6 +32,23 @@ The scripts were last tested successfully in python 2.7.14 with the following mo
 * numpy (version 1.13.3)
 * filecmp
 
+## What does each column in a CNA file mean?
+A line in a CNA file represents a segment in the genome, and each column means:
+
+* CHR: chromosome number of the segment
+* segStart: start locus of the segment
+* segEnd: end locus of the segment
+* mafPred: predicted minor allele frequency of the segment
+* CN: total copy number of this segment in the tumor cell predicted by a copy number algorithm
+* segLR: median of log-ratio of all exon and snp targets in this segment
+* segMAF: median of minor-allele-frequencies of snp targets in this segment 
+* numMAtumorPred: predicted copy number of minor allele of this segment 
+* numLRProbes: number of SNP targets and exon targets for estimating segLR of this segment
+* numAFProbes: number of SNP targets for estimating segMAF of this segment
+* purity: purity estimation of the sample
+* baseLevel: baselevel of the sample, which equals to tumor_purity*tumor_ploidy+2*(1-tumor_purity). Basically using baseLevel and purity we can get ploidy estimation.
+
+
 
 #   Contacts
   --------
