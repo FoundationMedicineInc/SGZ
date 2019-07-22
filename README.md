@@ -48,7 +48,13 @@ A line in a CNA file represents a segment in the genome, and each column means:
 * purity: purity estimation of the sample
 * baseLevel: baselevel of the sample, which equals to tumor_purity*tumor_ploidy+2*(1-tumor_purity). Basically using baseLevel and purity we can get ploidy estimation.
 
+## How to generate the dependent CNA file?
 
+The input file cna_model_file should be a file that contains the copy number model of the specimen you are processing, and an example is under SGZ/test/test_samples/ sample1.cna_calls.txt. The SGZ algorithm should accept any cna_model_file provided by the user, as long as it is formatted like the sample1.cna_calls.txt.
+ 
+Unfortunately we are not able to share the copy number modelling script publically, as it is part of our commercial product [FoundationOne CDx](https://www.foundationmedicine.com/genomic-testing/foundation-one-cdx) Also, our copy number algorithm has many components that are customized for our assay ( baitset design, data format etc.), and is normally not compatible with external data.
+ 
+A potential way to generate the CNA file is by using the ASCAT algorithm developed by Peter Van Loo et al. in [Allele-specific copy number analysis of tumors](http://www.pnas.org/content/107/39/16910?with-ds=yes), and the software (R package) can be found [Here](http://www.pnas.org/content/107/39/16910?with-ds=yes "ASCAT").
 
 #   Contacts
   --------
@@ -57,4 +63,4 @@ A line in a CNA file represents a segment in the genome, and each column means:
   
   Please cite the paper *Sun, J. X., He, Y., Sanford, E., Montesion, M., Frampton, G. M., Vignot, S., ... & Lipson, D. (2018). A computational approach to distinguish somatic vs. germline origin of genomic alterations from deep sequencing of cancer specimens without a matched normal. PLoS computational biology, 14(2), e1005965.* if you use SGZ in your publication.
   
-  Last updated on March 16th, 2018
+  Last updated on July 22nd, 2019
